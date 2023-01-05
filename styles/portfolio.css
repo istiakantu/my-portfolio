@@ -86,3 +86,7 @@ nav li {
 .about-me-text{
   padding-bottom: 20px;
 }
+/* what i do style */
+.skill-containers{
+  display: flex;
+}
