@@ -1,0 +1,88 @@
+*{
+  margin: 0;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* header and navigation style */
+header{
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+.btn-primary {
+  height: 54px;
+  padding: 10px 36px;
+  font-weight: 700;
+  font-size: 20px;
+  background: #FD6E0A;
+  border: 0;
+  color: #FFFFFF;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+  
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  
+}
+nav li {
+  list-style: none;
+  margin-left: 25px;
+}
+.nav-titel {
+    font-weight: 800;
+    font-size: 45px;
+
+}
+.text-primary {
+     color: #FD6E0A;
+} 
+/* header-banner */
+.banner-header {
+    display: flex;
+    align-items:center ;
+        
+}
+.banner-text {
+  font-weight: 700;
+  margin: 0 200px;
+  font-size: 20px;
+}
+.name {
+  padding: 10px 0 10px 0;
+  width: 498px;
+}
+.about-descripstion {
+  font-weight: 400;
+  font-size: 12px;
+}
+/* banner button */
+.contact-button {
+  height: 54px;
+  padding: 10px 36px;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1 solid black;
+  margin-left: 40px;
+  
+}
+/* about-me */
+.about-me{
+  text-align: center;
+  margin: 100px 230px;
+  background: #FFF8F3;
+  padding: 100px 80px;
+  margin-top: 270px;
+}
+.about-me-details{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  margin:80px 0 100px 0;
+}
+.about-me-text{
+  padding-bottom: 20px;
+}
