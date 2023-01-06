@@ -4,7 +4,9 @@
 }
 
 /* header and navigation style */
+
 header {
+  background: #FFF8F3;
   background-image: url(../images/header_bg.png), url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, left;
@@ -109,16 +111,18 @@ nav li {
   text-align: left;
 
 }
+
 .what-i-do {
   text-align: center;
-  padding: px 80px;
+  padding: 0px 80px;
   margin-top: 270px;
+  margin-bottom: 200px;
 }
 
 .what-i-do-titel {
   margin-bottom: 30px;
   font-size: 35px;
- 
+
 }
 
 .what-i-do-details {
@@ -126,19 +130,101 @@ nav li {
   color: #757575;
   margin: 60px 345px;
 }
+
 /* skill style */
-.skill{
+.skill {
   background: #FFFFFF;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   padding: 30px;
 }
-.skill-titel{
+
+.skill-titel {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.skill-description{
+
+.skill-description {
   font-size: 16px;
   color: #757575;
 
+}
+
+/* resume style */
+.resume {
+  margin: 130px 230px;
+  
+}
+
+.resume-titel {
+  text-align: center;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 180px;
+}
+
+.resume-details {
+  display: flex;
+  gap: 24px;
+}
+.education{
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 100px;
+  
+}
+.degree-name {
+  font-size: 25px;
+  color: #474747;
+  margin: 20px 0;
+}
+
+.university-name {
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 15px;
+}
+.education-details {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-button{
+  margin-top: 50px;
+  text-align: center;
+  
+}
+/* contact style */
+.Contact{
+  display: flex;
+  background: #FFF8F3;
+  padding: 130px 200px;
+  gap: 50px;
+  text-align: left;
+}
+.Contact input[type="text"], input[type="email"], textarea{
+  width: 100%;
+  padding: 5px 30px;
+  margin-bottom: 24px;
+  border: 0;
+}
+
+input{
+  height: 64px;
+  background: #FFFFFF;
+}
+.Contact h3{
+  margin-bottom: 20px;
+  color: #181818;
+  font-size: 35px;
+  text-align: left;
+}
+.contact-details{
+  color: #474747;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.social-icon{
+  display: flex;
+  gap: 25px;
 }
